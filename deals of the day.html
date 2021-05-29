@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href='https://fonts.googleapis.com/css?family=Trade Winds' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Norican' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Milonga' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Yeon Sung' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Merienda One' rel='stylesheet'>
+	
+<title>pippo.com/Deals of the Day/</title>
+
+
+<style>
+
+.bg4 {
+	background-color: #E0B0FF;
+}
+
+h4{
+	font-family: Merienda One;
+	color: #f52887;
+	text-align: center;
+}
+
+h2{
+	font-family: Merienda One;
+	color: black;
+	text-align: center;
+}
+
+h3{
+	font-family: Merienda One;
+	color: black;
+	text-align: center;
+}
+
+.text {
+	font-family: yeon sung;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	color: #FFD801;
+}
+
+.bg2 {
+	background-color: #FFD801;
+}
+
+body.nav {
+  margin: 0;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 37px;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: milonga;
+}
+
+#navbar a:hover {
+  background-color: #736f6f;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: #736f6f;
+  color: white;
+}
+
+
+#navbar a.active1 {
+  background-color: black;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#bg1 {
+  background: url(7.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 890px;
+}
+
+#bg {
+  padding: 60px;
+  background: url(4.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+* {box-sizing: border-box}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text1 {
+	text-align: center;
+	color: white;
+	font-size: 26px;
+	font-family: norican;
+}
+
+.text {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: norican;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active2, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.round {
+	border-radius: 30%;
+}
+
+
+</style>
+</head>
+
+
+<body class="nav">
+
+
+<div id="navbar">
+  <a class="active1" href="javascript:void(0)"><img src="logo.jpg" height="25" width="25"></a>
+  &nbsp&nbsp&nbsp
+  <a href="homepage.html"><img src="home icon.jpg" height="25" width="25">&nbspHome</a>
+  <a href="about us.html"><img src="about us.jpg" height="25" width="25">&nbspAbout Us</a>
+  <a href="contact us.html"><img src="contact us.jpg" height="25" width="25">&nbspContact Us</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjGpoBR3wXgxkCCl7lhZoRDw9BUeys9UcaVf0Hfw2d52zTzA/viewform?embedded=true"><img src="feedback.jpg" height="25" width="25">&nbspFeedback</a>
+  <a href="shopping list.html"><img src="shopping list.jpg" height="25" width="25">&nbspShopping List</a>
+  <a href="category.html"><img src="menu icon.jpg" height="25" width="25">&nbspCategory</a></div>
+<script>
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+	}
+	}
+</script>
+
+
+<div class="bg2">
+<hr></hr>
+<br>
+<h2>Deals of the Day</h2>
+<hr></hr>
+</div>
+
+<div class="bg4">
+<hr></hr>
+<a href="file:///C:/Users/SAMRIDDHI%20SINGH/Documents/DIVYANSHI%20SINGH/PROJECT/pippo/mega%20sale.html">
+<h4>NOW OR NEVER!!! MEGA SALE STARTS AT FRIDAY NIGHT AT 8 PM. GRAB IT NOW...EXCLUSIVE DEALS FOR YOUR DREAMS !!!</h4>
+</a>
+<hr></hr>
+</div>
+
+
+<div id="bg">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <a href="https://www.apple.com/in/iphone-12-pro/">
+  <img src="1.jpg" height="480" width="1000">
+  </a>
+  <div class="text">Small in size.Big on capability.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <a href="https://www.apple.com/in/watch/compare/">
+  <img src="2.jpg" height="480" width="1000">
+  </a>
+  <div class="text">The future of health is on your wrist.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <a href="https://www.apple.com/in/shop/goto/buy_mac/macbook_air/">
+  <img src="3.jpg" height="480" width="1000">
+  </a>
+  <div class="text">Light.Speed.Power.Moves.</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</div>
+
+
+<div class="bg2">
+<hr></hr>
+<h3>
+  HP's smallest convertible with 90% screen-to-body-ratio.Big power, great performance in a small, sleek package.
+</h3>
+<hr></hr>
+</div>
+
+
+<center>
+<section class="row-block ambient-video">
+      <div class="ambient-video-wrapper block">
+        <a href="https://store.hp.com/in-en/default/personal-laptops-hp-spectre-x360">
+        <video autoplay="" muted="" playsinline="" loop="" poster="https://in-files.apjonlinecdn.com/landingpages/npi/hp-spectre-x360-13-p1/images/Module_2_Video.jpg" width="1000" height="465" class="responsive">
+         <source src="https://in-files.apjonlinecdn.com/landingpages/npi/hp-spectre-x360-13-p1/videos/Rainer_Simple360.Ambient.mp4" type="video/mp4">
+         </video>
+
+         </a>
+        </div>
+    </section>
+</center>
+
+
+
+<center>
+<div id="bg1">
+<br><br>
+<a href="https://www.samsung.com/in/smartphones/galaxy-z-fold2/">
+<img src="5.jpg" width="1000" height="500">
+</a>
+<br><br><br><br>
+<a href="https://www.samsung.com/in/cooking-appliances/28-litre-convection-microwave-oven-mc28m6036cc/MC28M6036CCTL/">
+<img src="6.jpg" height="250" width="1000">
+</a>
+</div>
+</center>
+
+
+</body>
+</html>

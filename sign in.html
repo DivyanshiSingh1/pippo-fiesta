@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Trade Winds' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Norican' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Milonga' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Yeon Sung' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Merienda One' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pippo.com/Sign In/</title>
+<style>
+
+h2{
+	font-family: Merienda One;
+	color: black;
+	text-align: center;
+}
+
+body.nav {
+  margin: 0;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 37px;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: milonga;
+}
+
+#navbar a:hover {
+  background-color: #736f6f;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: #736f6f;
+  color: white;
+}
+
+
+#navbar a.active1 {
+  background-color: black;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.text {
+	font-family: yeon sung;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	color: #FFD801;
+}
+
+.bg1 {
+  padding: 30px;
+  background: url(14.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 370px;
+}
+
+
+.bg2 {
+	background-color: #FFD801;
+}
+
+.bg3 {
+	background-color: #6D7B8D;
+}
+
+h3 {
+	font-family: Merienda One;
+	color: #842DCE;
+	
+}
+
+h2 {
+	font-family: Merienda One;
+	color: black;
+	
+}
+
+p {
+	font-family: Merienda One;
+	color: #f52887;
+	font-size: 18px;
+	}
+
+.bg4 {
+	background-color: #E0B0FF;
+}
+
+
+</style>
+</head>
+<body>
+
+<body class="nav">
+
+
+<div id="navbar">
+  <a class="active1" href="javascript:void(0)"><img src="logo.jpg" height="25" width="25"></a>
+  &nbsp&nbsp&nbsp
+  <a href="homepage.html"><img src="home icon.jpg" height="25" width="25">&nbspHome</a>
+  <a href="about us.html"><img src="about us.jpg" height="25" width="25">&nbspAbout Us</a>
+  <a href="contact us.html"><img src="contact us.jpg" height="25" width="25">&nbspContact Us</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjGpoBR3wXgxkCCl7lhZoRDw9BUeys9UcaVf0Hfw2d52zTzA/viewform?embedded=true"><img src="feedback.jpg" height="25" width="25">&nbspFeedback</a>
+  <a href="shopping list.html"><img src="shopping list.jpg" height="25" width="25">&nbspShopping List</a>
+  <a href="category.html"><img src="menu icon.jpg" height="25" width="25">&nbspCategory</a></div>
+<script>
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<div class="bg2">
+<hr></hr>
+<br>
+<h2>Sign In</h2>
+<hr></hr>
+</div>
+
+
+
+
+<div class="bg4">
+<form>
+<fieldset>
+<legend><h3>Sign In</h3></legend>
+<hr></hr>
+<br>
+<p>Enter your details.</p>
+<br>
+<p>Enter your Email Address and Password</p>
+<input type="Email Address" value="Email Address">&nbsp&nbsp<p>Password</p><input type="Password" value="Password">&nbsp<img src="d1.jpg" width="30" height="30">
+<br>
+<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"><p>Remember me</p>
+<br>
+<p>By sign in you agree to our Terms & Privacy.</p>
+<br>
+<button type="button" onclick="alert('Taking you to your premium deals and vouchers.')"><p>SignIn</p></button>
+&nbsp
+<button type="button" onclick="alert('Sorry for your inconvinience.')"><p>Cancel</p></button>
+<br>
+<p>Don't have our premium "Home Decor" membership.</p>
+&nbsp
+<a href="file:///C:/Users/SAMRIDDHI%20SINGH/Documents/DIVYANSHI%20SINGH/PROJECT/pippo/sign%20up.html"><p>Create Account</p></a>
+<br>
+<center><h3>Or</h3></center>
+<p>Sign in with</p>&nbsp<a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><p>Google&nbsp&nbsp<img src="google.jpg" width="50" height="30"></p></a>
+</legend>
+</fieldset>
+</form>
+</div>
+
+
+
+</body>
+</html>

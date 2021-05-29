@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href='https://fonts.googleapis.com/css?family=Trade Winds' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Norican' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Milonga' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Yeon Sung' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Merienda One' rel='stylesheet'>
+
+<title>pippo/About Us/</title>
+
+<style>
+
+h2{
+	font-family: Merienda One;
+	color: black;
+	text-align: center;
+}
+
+body.nav {
+  margin: 0;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 37px;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: milonga;
+}
+
+#navbar a:hover {
+  background-color: #736f6f;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: #736f6f;
+  color: white;
+}
+
+
+#navbar a.active1 {
+  background-color: black;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.text {
+	font-family: yeon sung;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	color: #FFD801;
+}
+
+.bg1 {
+  padding: 60px;
+  background: url(11.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 500px;
+}
+
+
+.bg2 {
+	background-color: #FFD801;
+}
+
+.bg3 {
+	background-color: #6D7B8D;
+}
+
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.v1 {
+	margin-left: 90px;
+}
+
+.v2 {
+margin-left: 70px;
+	
+}
+
+.bg4 {
+	background: url(12.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 970px;
+}
+
+</style>
+</head>
+
+
+<body class="nav">
+
+
+<div id="navbar">
+  <a class="active1" href="javascript:void(0)"><img src="logo.jpg" height="25" width="25"></a>
+  &nbsp&nbsp&nbsp
+<a href="homepage.html"><img src="home icon.jpg" height="25" width="25">&nbspHome</a>
+  <a class="active1" href="about us.html"><img src="about us.jpg" height="25" width="25">&nbspAbout Us</a>
+  <a href="contact us.html"><img src="contact us.jpg" height="25" width="25">&nbspContact Us</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjGpoBR3wXgxkCCl7lhZoRDw9BUeys9UcaVf0Hfw2d52zTzA/viewform?embedded=true"><img src="feedback.jpg" height="25" width="25">&nbspFeedback</a>
+  <a href="shopping list.html"><img src="shopping list.jpg" height="25" width="25">&nbspShopping List</a>
+  <a href="category.html"><img src="menu icon.jpg" height="25" width="25">&nbspCategory</a></div>
+<script>
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<div class="bg2">
+<hr></hr>
+<br>
+<h2>About Us</h2>
+<hr></hr>
+</div>
+
+<div class="bg3">
+
+<div class="bg1">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <center>
+  <img src="8.jpg" width="700" height="350">
+  </center>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <center>
+  <img src="9.jpg" width="700" height="350">
+  </center>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <center>
+  <img src="10.jpg" width="700" height="350">
+  </center>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+</div>
+
+
+<p class="text">
+Pippo is the leading e-commerce marketplace in India with over 100 million registered customers. Pippo was started in 2007 by Ms. S.S. and Ms. D.S., two engineers from Chandigarh who met during their final year project at IIT-Delhi. The duo started Pippo out of a modest 2-bedroom apartment-turned-office in Bengaluru. Pippo acquired its first customer in 2008, and hired its first full-time employee in 2009.
+<br><br>
+The story of Pippo is an inspiring one not just for startups in India, but for the e-commerce industry globally. While print and digital media have been exuberant in their coverage of the Pippo story, there are deeper layers to the Pippo story that only we at Pippo know. As Pippo’s proactive storytelling platform, Pippo Stories unboxes these stories every week. Pippo Stories has been written about in Mint and Afaqs. At the Fulcrum Awards 2017, one of India’s most prestigious PR awards, Pippo Stories was awarded silver for ‘Best Use of Content’.
+</p>
+</div>
+
+<div class="bg4">
+<br><br><br><br><br>
+<iframe  class="v1" width="500" height="350" src="https://www.youtube.com/embed/jCYoCa3--Sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe class="v2" width="500" height="350" src="https://www.youtube.com/embed/YzRzet8cPxE?list=RDCMUC5FLqmaQTi7BaeVxGiVgR2A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br><br><br><br><br>
+<center>
+<iframe width="500" height="350" src="https://www.youtube.com/embed/antjciqwJro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</div>
+
+</body>
+</html>
